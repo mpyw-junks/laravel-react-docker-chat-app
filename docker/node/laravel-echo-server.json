@@ -1,0 +1,17 @@
+{
+    "authHost": "http://nginx",
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {
+            "host": "redis",
+            "port": 6379
+        }
+    },
+    "clients": [
+        {
+            "appId": "_",
+            "key": "_"
+        }
+    ],
+    "devMode": true
+}
