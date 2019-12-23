@@ -21,6 +21,6 @@ import client from 'socket.io-client';
 
 window.Echo = new Echo({
   broadcaster: 'socket.io',
-  host: `${window.location.hostname}:8000`,
+  host: `${window.location.hostname}:${process.env.MIX_EXTERNAL_NGINX_PORT}`,
   client,
 });
