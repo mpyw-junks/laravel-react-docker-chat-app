@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "laravel-echo-server": "^1.6.0"
+    },
+    "scripts": {
+        "start": "exec laravel-echo-server start"
+    }
+}
