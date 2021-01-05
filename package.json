@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@material-ui/core": "^4.8.0",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "laravel-echo": "^1.6.1",
         "lodash": "^4.17.19",
         "react": "^16.12.0",
